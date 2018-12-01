@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/welcome_page_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:contentDescription="@string/contentDesc"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/logo_marginTop"
+        android:src="@drawable/feed_logo"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:id="@+id/appName"
+        android:layout_below="@+id/mainLogo"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="@string/appName"
+        android:textSize="@dimen/appName_textSize"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/btn_bg"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/btn_textSize"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:text="@string/btn_text" />
+
+</RelativeLayout>

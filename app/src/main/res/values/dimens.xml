@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">8dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <dimen name="cardMaxElevation">4dp</dimen>
+    <dimen name="details_text_size">14sp</dimen>
+    <dimen name="news_text_size">20sp</dimen>
+    <dimen name="title_layout_margin">10dp</dimen>
+    <dimen name="details_margin_left_start">5dp</dimen>
+    <dimen name="layout_padding">14dp</dimen>
+    <dimen name="details_layout_margin">10dp</dimen>
+    <dimen name="list_divider_height">0dp</dimen>
+    <dimen name="progressBar_width">200dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="logo_width">200dp</dimen>
+    <dimen name="logo_marginTop">100dp</dimen>
+    <dimen name="btn_marginBottom">149dp</dimen>
+    <dimen name="appName_textSize">80sp</dimen>
+    <dimen name="btn_textSize">18sp</dimen>
+    <dimen name="apply_btn_margin_bottom">30dp</dimen>
+</resources>
